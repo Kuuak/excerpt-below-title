@@ -1,0 +1,36 @@
+#exbt_after_title-sortables .postbox {
+	margin: 20px 0 0;
+	border: none;
+	box-shadow: none;
+	background: none;
+	display: block !important; /* Force the metabox to always be visible */
+}
+
+#exbt_after_title-sortables .handlediv,
+#exbt_after_title-sortables .hndle {
+	display: none;
+}
+
+#exbt_after_title-sortables .inside {
+	padding: 0;
+	border: none;
+}
+
+#exbt_after_title-sortables label {
+	position: static !important;
+	display: block;
+	clip: auto;
+	clip-path: none;
+	width: auto;
+	height: auto;
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+
+#exbt_after_title-sortables textarea {
+	min-height: 6em;
+}
+
+#exbt_after_title-sortables p {
+	display: none;
+}
